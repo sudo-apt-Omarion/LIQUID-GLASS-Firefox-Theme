@@ -5,7 +5,7 @@ Elevate your browsing style with LIQUID GLASS, a vibrant glass-morphic theme for
 ---
 
 ## ⚡ Upgrade to the Premium Setup Pack 
-Get the ultimate, hassle-free experience by purchasing the full **LIQUID GLASS Premium Pack**, which includes custom New Tab extensions, automated multi-platform installer scripts, and a full visual guide:
+Get the ultimate, hassle-free experience by purchasing the full **LIQUID GLASS Premium Pack**, which includes custom New Tab extensions, automated multi-platform installer scripts, and a full instructions guide:
 📥 **[Get the Full LIQUID GLASS Pack on Selar](https://selar.com/k115171q22?currency=USD)**
 
 ---
