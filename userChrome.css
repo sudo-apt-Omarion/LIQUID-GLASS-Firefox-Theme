@@ -1,0 +1,63 @@
+/* Liquid Glass - userChrome.css */
+:root {
+  --lg-bg: rgba(15, 10, 28, 0.65);
+  --lg-border: rgba(220, 150, 255, 0.35);
+  --lg-glow: 0 0 20px rgba(112, 214, 255, 0.3);
+  --lg-cyan: #70d6ff;
+  --lg-magenta: #e056fd;
+}
+
+#navigator-toolbox {
+  background: var(--lg-bg) !important;
+  backdrop-filter: blur(30px) saturate(150%) !important;
+  border-bottom: 1px solid var(--lg-border) !important;
+}
+
+#urlbar-background {
+  background: rgba(255, 255, 255, 0.07) !important;
+  border: 1px solid var(--lg-border) !important;
+  border-radius: 999px !important;
+  box-shadow: var(--lg-glow) !important;
+  backdrop-filter: blur(20px) !important;
+}
+
+/* Bookmarks Toolbar Glass Styling */
+#PersonalToolbar {
+  background: rgba(15, 10, 28, 0.4) !important;
+  backdrop-filter: blur(15px) !important;
+  border-bottom: 1px solid rgba(220, 150, 255, 0.2) !important;
+  padding: 2px 6px !important;
+}
+
+toolbarbutton.bookmark-item {
+  border-radius: 8px !important;
+  padding: 3px 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+toolbarbutton.bookmark-item:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid rgba(220, 150, 255, 0.4) !important;
+  box-shadow: 0 0 10px rgba(112, 214, 255, 0.3) !important;
+}
+
+#urlbar-label-box {
+  background-color: rgba(10, 6, 20, 0.85) !important;
+  border: 1px solid var(--lg-magenta) !important;
+  border-radius: 999px !important;
+  margin-right: 6px !important;
+}
+
+#urlbar-label {
+  color: var(--lg-cyan) !important;
+}
+
+.tab-background {
+  border-radius: 12px !important;
+}
+
+.tab-background[selected="true"] {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid var(--lg-border) !important;
+  box-shadow: var(--lg-glow) !important;
+}
